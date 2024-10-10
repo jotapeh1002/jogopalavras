@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./src/input.css" rel="stylesheet">
+  <link href="./src/output.css" rel="stylesheet">
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH87y4lU9VOjTYETjIJr1iyjwJkue5W3WYRA&s">
+</head>
+<body id="body">
+  <div id="modal" class=" absolute bg-zinc-600 bg-opacity-75 hidden backdrop-blur-sm w-screen text-4xl h-screen z-50  items-center justify-center">
+    <div class="modal-content">
+        <img id="imgmodal" src="" alt="" srcset="" width="300vh">
+        <div id="closeModal" class="bg-blue-500 rounded-2xl mt-10 text-xl text-slate-200 shadow-md p-3 mb-5 text-center"> Ver jogo</div>
+        <div id="recarregar" class="bg-blue-500 rounded-2xl text-xl text-slate-200 shadow-md p-3 text-center"> Jogar Novamente </div>
+        <div id="exibirpalavra" class=" rounded-2xl text-xl bg-opacity-20 text-slate-200 shadow-md p-3 text-center mt-10 font-bold"> <span class="">A PALAVRA ERA: <span class="text-green-500" id="palavracerta"> </span> </span></div>
+    </div>
+</div>
+  <div id="containerBettwen" class="w-full">
+    <div id="nameTitulo" class="mb-12 mt-20 text-3xl font-bold text-center">
+      <span class="text-gray-600">P</span>
+      <span class="text-gray-600">A</span>
+      <span class="text-green-600">L</span>
+      <span class="text-green-600">A</span>
+      <span class="text-yellow-600">V</span>
+      <span class="text-yellow-600">R</span>
+      <span class="text-gray-600">A</span>
+      <span class="text-gray-600">S</span>
+    </div>
+    <div class="w-full h-full flex flex-col items-center justify-between">
+      <div id="containerDivTab"></div>
+      <div id="containerDivTec"></div>
+    </div>
+  </div>
+  <script src="./src/script.js"></script>
+</body>
+</html>
